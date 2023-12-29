@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+
+    h1 {
+      color: #4caf50;
+    }
+
+    .person {
+      display: inline-block;
+      margin: 20px;
+    }
+
+    .person img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .person strong {
+      font-weight: bold;
+    }
+
+    .button-container {
+      margin-top: 20px;
+    }
+
+    .button {
+      width: 150px;
+      height: 40px;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      cursor: pointer;
+    }
+
+    .button.unit {
+      background-color: #4caf50;
+    }
+
+    .button.sessional {
+      background-color: #2196F3;
+    }
+
+    .button.assignment {
+      background-color: #FF9800;
+    }
+
+    .button.notes {
+      background-color: #f44336;
+    }
+  </style>
+  <title>Welcome Page</title>
+</head>
+<body>
+  <h1>Welcome to Our Website!</h1>
+
+  <div class="person" id="piyush">
+    <img src="path_to_piyush_image.jpg" alt="Piyush's Image">
+    <p><strong>Piyush Goyal</strong></p>
+  </div>
+
+  <div class="person" id="preet">
+    <img src="path_to_preet_image.jpg" alt="Preet's Image">
+    <p><strong>Preet Pratap Singh Bhati</strong></p>
+  </div>
+
+  <div class="button-container">
+    <button class="button unit" onclick="redirectTo('unit-test-papers.html')">Unit Test Papers</button>
+    <button class="button sessional" onclick="redirectTo('sessional-papers.html')">Sessional Exam Papers</button>
+    <button class="button assignment" onclick="redirectTo('assignments.html')">Assignments</button>
+    <button class="button notes" onclick="redirectTo('notes.html')">Notes</button>
+  </div>
+
+  <script>
+    function redirectTo(page) {
+      window.location.href = page;
+    }
+  </script>
+</body>
+</html>
