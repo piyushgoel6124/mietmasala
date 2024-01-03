@@ -1,93 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      text-align: center;
-    }
-
-    h1 {
-      color: #4caf50;
-    }
-
-    .person {
-      display: inline-block;
-      margin: 20px;
-    }
-
-    .person img {
-      border-radius: 50%;
-      width: 100px;
-      height: 100px;
-      object-fit: cover;
-    }
-
-    .person strong {
-      font-weight: bold;
-    }
-
-    .button-container {
-      margin-top: 20px;
-    }
-
-    .button {
-      width: 150px;
-      height: 40px;
-      margin: 10px;
-      border: none;
-      border-radius: 5px;
-      font-size: 16px;
-      font-weight: bold;
-      color: white;
-      cursor: pointer;
-    }
-
-    .button.unit {
-      background-color: #4caf50;
-    }
-
-    .button.sessional {
-      background-color: #2196F3;
-    }
-
-    .button.assignment {
-      background-color: #FF9800;
-    }
-
-    .button.notes {
-      background-color: #f44336;
-    }
-  </style>
-  <title>Welcome Page</title>
+    <title>B.TECH WALA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pic/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <h1>Welcome to Our Website!</h1>
-
-  <div class="person" id="piyush">
-    <img src="https://github.com/piyushgoel6124/mietmasala/blob/main/wallpaperflare.com_wallpaper%20(9).jpg">
-    <p><strong>Piyush Goell</strong></p>
-  </div>
-
-  <div class="person" id="preet">
-    <img src="path_to_preet_image.jpg" alt="Preet's Image">
-    <p><strong>Preet Pratap Sinnngh Bhati</strong></p>
-  </div>
-
-  <div class="button-container">
-    <button class="button unit" onclick="redirectTo('unit-test-papers.html')">Unit Test Papers</button>
-    <button class="button sessional" onclick="redirectTo('sessional-papers.html')">Sessional Exam Papers</button>
-    <button class="button assignment" onclick="redirectTo('assignments.html')">Assignments</button>
-    <button class="button notes" onclick="redirectTo('notes.html')">Notes</button>
-  </div>
-
-  <script>
-    function redirectTo(page) {
-      window.location.href = page;
-    }
-  </script>
+    <div class="back">
+        <div class="navbar">
+            <img src="pic/Logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="contactus.html">How to download?</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="contactus.html">contact us</a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <div class="content">
+                <h1 style="color: white; font-family: sans-serif;">B.TECH WALA</h1>
+                <h2>"Bro.... Do you have the notes?" <br>Yeah,Which group?</h2>
+                <div>
+                    <a href="miet-p.html"><button type="button">PHYSICS<br>GROUP</button></a>
+                    <a href="miet-c.html"><button type="button">CHEMISTRY<br>GROUP</button></a>
+                </div><br><br>
+                <h2>Trending......</h2><br>
+                <div>
+                    <a href="ses1.html"><button type="button">SESSIONAL 1 PAPERS</button></a>
+                    <a href="ses2.html"><button type="button">SESSIONAL 2 PAPERS</button></a>
+                </div>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>
