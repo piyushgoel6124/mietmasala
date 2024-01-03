@@ -288,46 +288,49 @@ padding: 0%;
     cursor: pointer;
     color: white;
     border-radius: 5px;
-    border-color: #8665f7;
+    border-color: #333;
     padding: 0 0;
     margin: 0 0;
-    background: #8665f7;
+    background: #333;
     font-size: 15px;
 
 }
 .btnlink:hover{
     z-index: 10;
     transform: scale(1.12);
-    background-color: #8665f7;
+    background-color: #333;
     transition: 0.5s;
     color: white;
 }
 
-.ses2btn,.ses2btn:hover{
-    border-color: #453EEA;
-    background: #453EEA;
-}
 
 
 .logo{
-    min-width: 100px;
-    width: auto;
-    height: 80px;
+    width: 10%;
+    min-width: 2cm;
+    height: auto;
+    max-height: 80px;
     margin: 0;
     padding: 0;
+    background: white;
+    border-radius: 5px;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
 
 nav{
-    background: #8665f7;
+    background: #333;
     margin: 0 0;
-    height: 80px;
+    height: auto;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-family: monospace;
     border-top: black 2px solid;
     border-bottom: black 2px solid;
+    padding: 10px 10px;
 }
 nav ul{
     float: right;
@@ -337,7 +340,6 @@ nav ul li{
     display: inline-block;
     line-height: auto;
     margin: 5px 5px;
-    margin-top: 31px;
 
 }
 nav ul li a{
@@ -354,7 +356,7 @@ nav ul li a{
 .active,a:hover{
     background: #fff;
     transition: .5s;
-    color: #8665f7;
+    color: #333;
 }
 
 .sesh1{
@@ -362,7 +364,7 @@ nav ul li a{
     text-decoration: underline;
     font-family: monospace;
     font-size: 300%;
-    color: #8665f7;
+    color: #333;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
 }
@@ -400,7 +402,7 @@ nav ul li a{
     
 }
 .head{
-    background: #8665f7;
+    background: #333;
     box-shadow: none;
     color: white;
     font-size: 20px;
